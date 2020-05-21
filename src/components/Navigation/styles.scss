@@ -2,10 +2,37 @@ $main-navigation-color: #87c232;
 
 .navigation {
   background-color: $main-navigation-color;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+
+  .navigation-list {
+    display: grid;
+    padding: 1rem;
+  }
+
+  .navigation-logo {
+    padding: 1rem;
+    font-size: 2.25rem;
+  }
 
   .navigation-ul {
+    display: none;
+    justify-items: end;
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+
+  .navigation-toggle {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+
+    .far {
+      align-items: center;
+      font-size: 2.25rem;
+    }
   }
 }

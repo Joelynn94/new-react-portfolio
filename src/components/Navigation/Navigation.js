@@ -16,28 +16,28 @@ function Navigation() {
       <div className='navigation-list'>
         {/* Navigation Items */}
         <ul className='navigation-ul'>
-          <li className='navbar-item'>
-            <Link className='navbar-link' to='/'>
+          <li className='navigation-item'>
+            <Link className='navigation-link' to='/'>
               Home
             </Link>
           </li>
-          <li className='navbar-item'>
-            <Link className='navbar-link' to='/'>
+          <li className='navigation-item'>
+            <Link className='navigation-link' to='/'>
               About
             </Link>
           </li>
-          <li className='navbar-item'>
-            <Link className='navbar-link' to='/'>
+          <li className='navigation-item'>
+            <Link className='navigation-link' to='/'>
               Skills
             </Link>
           </li>
-          <li className='navbar-item'>
-            <Link className='navbar-link' to='/'>
+          <li className='navigation-item'>
+            <Link className='navigation-link' to='/'>
               Portfolio
             </Link>
           </li>
-          <li className='navbar-item'>
-            <Link className='navbar-link' to='/'>
+          <li className='navigation-item'>
+            <Link className='navigation-link' to='/'>
               Contact
             </Link>
           </li>
