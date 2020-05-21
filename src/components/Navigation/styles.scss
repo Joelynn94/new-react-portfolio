@@ -1,0 +1,11 @@
+$main-navigation-color: #87c232;
+
+.navigation {
+  background-color: $main-navigation-color;
+
+  .navigation-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
