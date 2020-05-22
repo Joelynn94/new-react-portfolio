@@ -13,6 +13,8 @@ $main-navigation-color: #87c232;
   }
 
   .navigation-logo {
+    display: grid;
+    justify-items: start;
     padding: 1rem;
     font-size: 2rem;
   }
