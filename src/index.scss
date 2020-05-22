@@ -4,6 +4,9 @@ $secondary-dark-background: #2f3539;
 $main-light-text: #fff;
 $secondary-dark-text: #abb0b4;
 
+$main-color: #87c232;
+$accent-color: #618930;
+
 body {
   background-color: $main-dark-background;
   color: $main-light-text;
@@ -41,4 +44,31 @@ a {
 
 img {
   width: 100%;
+}
+
+.btn {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  max-width: 12rem;
+  opacity: 0.8;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 1rem;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-primary {
+  background-color: $main-color;
+}
+
+.btn-secondary {
+  background-color: $accent-color;
 }

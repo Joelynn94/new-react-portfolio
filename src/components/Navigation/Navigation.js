@@ -44,7 +44,7 @@ function Navigation() {
         </ul>
         {/* Navigation Toggle Button */}
         <div className='navigation-toggle'>
-          <i class='far fa-bars'></i>
+          <i className='far fa-bars'></i>
         </div>
       </div>
     </nav>
