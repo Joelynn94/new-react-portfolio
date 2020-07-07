@@ -6,16 +6,17 @@ $main-navigation-color: #87c232;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-columns: 2fr 1fr;
+  align-items: center;
 
   .navigation-list {
     display: grid;
-    padding: 1rem;
+    padding-right: .65rem;
   }
 
   .navigation-logo {
     display: grid;
     justify-items: start;
-    padding: 1rem;
+    padding-left: .65rem;
     font-size: 2rem;
   }
 
@@ -31,6 +32,8 @@ $main-navigation-color: #87c232;
     display: grid;
     justify-items: end;
     align-items: center;
+    padding: .25rem;
+    cursor: pointer;
 
     .far {
       align-items: center;

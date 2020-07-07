@@ -9,7 +9,7 @@ function Navigation() {
       {/* Navigation Logo */}
       <div className='navigation-logo'>
         <Link to='/' className='navigation-link'>
-          Joseph Lynn
+          JL
         </Link>
       </div>
       {/* Navigation List */}

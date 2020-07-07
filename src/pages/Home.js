@@ -1,9 +1,13 @@
 import React from "react";
+import Hero from '../components/Hero/Hero'
+import About from '../components/About/About'
+
 
 function Home() {
   return (
     <main>
-      <h1>Hello</h1>
+      <Hero />
+      <About />
     </main>
   );
 }
