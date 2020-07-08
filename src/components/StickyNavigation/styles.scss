@@ -3,30 +3,37 @@ $main-navigation-color: #87c232;
 .sticky-navigation {
   background-color: $main-navigation-color;
   text-align: center;
-  display: grid;
-  grid-template-rows: 5rem;
-  align-items: top;
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
 
   .navigation-ul {
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 5em;
+  }
+
+  .navigation-item {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .navigation-link {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
   }
 
   .navigation-icon {
-    p {
-      margin: 0;
-    }
-    .fal {
-      font-size: 2rem;
-    }
+    font-size: 1.5rem;
   }
 }
