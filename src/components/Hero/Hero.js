@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./styles.scss";
+import './styles.scss';
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
         <p className='hero-excerpt'>
           I am a Full Stack Web Developer specializing in front-end development.
           Known for being able to bring ideas together to build out the user
-          interface of an application. I write about JavaScript on{" "}
+          interface of an application. I write about JavaScript on{' '}
           <a
             href='https://dev.to/joelynn94'
             target='_blank'
@@ -22,7 +22,7 @@ function Hero() {
           >
             my blog
           </a>
-          . If you want to see more check out my{" "}
+          . If you want to see more check out my{' '}
           <Link
             to='https://dev.to/joelynn94'
             target='_blank'
@@ -31,7 +31,7 @@ function Hero() {
           >
             projects portfolio
           </Link>
-          ,{" "}
+          ,{' '}
           <Link
             to='https://dev.to/joelynn94'
             target='_blank'
@@ -39,8 +39,8 @@ function Hero() {
             className='hero-highlight'
           >
             online resume
-          </Link>{" "}
-          or{" "}
+          </Link>{' '}
+          or{' '}
           <Link
             to='https://dev.to/joelynn94'
             target='_blank'
@@ -105,13 +105,13 @@ function Hero() {
         </div>
       </div>
 
-      {/* <div className='hero-secondary'>
+      <div className='hero-secondary'>
         <img
-          className='profile-img'
+          className='hero-img'
           src='../images/joe-with-background.jpg'
           alt='profile'
         ></img>
-      </div> */}
+      </div>
     </div>
   );
 }
