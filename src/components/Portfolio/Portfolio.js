@@ -31,13 +31,45 @@ function Portfolio() {
               <div className='project-buttons'>
                 <Link>
                   <button className='btn btn-primary project-btn'>
-                    View Portfolio
+                    View Project
                   </button>
                 </Link>
 
                 <Link>
                   <button className='btn btn-secondary project-btn'>
-                    View Resume
+                    View Code
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </article>
+
+          <article className='project'>
+            <img
+              className='project-img'
+              src='../images/bootcamp-certificate.png'
+              alt=''
+            ></img>
+            <div className='project-body'>
+              <h3 className='project-title'>Developer Profile Generator </h3>
+              <p className='project-desc'>
+                A command-line application that dynamically generates a PDF
+                profile from a GitHub username.
+              </p>
+              <hr className='project-line'></hr>
+              <p className='project-tech'>
+                JavaScript, NodeJS, Github API, HTML, CSS
+              </p>
+              <div className='project-buttons'>
+                <Link>
+                  <button className='btn btn-primary project-btn'>
+                    View Project
+                  </button>
+                </Link>
+
+                <Link>
+                  <button className='btn btn-secondary project-btn'>
+                    View Code
                   </button>
                 </Link>
               </div>
