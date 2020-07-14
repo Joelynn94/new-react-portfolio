@@ -2,6 +2,7 @@ import React from "react";
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 import Skills from '../components/Skills/Skills'
+import CTA from '../components/CTA/CTA'
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
         <Hero />
         <About />
         <Skills />
+        <CTA />
       </div>
 
     </main>

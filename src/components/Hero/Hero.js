@@ -17,34 +17,34 @@ function Hero() {
           href='https://dev.to/joelynn94'
           target='_blank'
           rel='noopener noreferrer'
-          className='hero-highlight'
+          className='green-highlight'
         >
           my blog
         </a>
         . If you want to see more check out my{' '}
         <Link
-          to='https://dev.to/joelynn94'
+          to=''
           target='_blank'
           rel='noopener noreferrer'
-          className='hero-highlight'
+          className='green-highlight'
         >
           projects portfolio
         </Link>
         ,{' '}
         <Link
-          to='https://dev.to/joelynn94'
+          to=''
           target='_blank'
           rel='noopener noreferrer'
-          className='hero-highlight'
+          className='green-highlight'
         >
           online resume
         </Link>{' '}
         or{' '}
         <Link
-          to='https://dev.to/joelynn94'
+          to=''
           target='_blank'
           rel='noopener noreferrer'
-          className='hero-highlight'
+          className='green-highlight'
         >
           download my resume
         </Link>
@@ -62,7 +62,7 @@ function Hero() {
         </a>
 
         <a
-          href='https://www.linkedin.com/in/joseph-lynn/'
+          href='https://dev.to/joelynn94'
           target='_blank'
           rel='noopener noreferrer'
           className='social-icon'
@@ -71,7 +71,7 @@ function Hero() {
         </a>
 
         <a
-          href='https://www.linkedin.com/in/joseph-lynn/'
+          href='https://github.com/Joelynn94'
           target='_blank'
           rel='noopener noreferrer'
           className='social-icon'
@@ -110,7 +110,6 @@ function Hero() {
           alt='profile'
         ></img>
       </div>
-
     </section>
   );
 }
