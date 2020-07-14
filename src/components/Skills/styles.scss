@@ -1,0 +1,32 @@
+.skills {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  .frontend,
+  .backend {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .skills {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .skill-icon {
+    font-size: 5rem;
+  }
+
+  .tech-text {
+    margin-top: .25rem;
+    margin-bottom: .5rem;
+  }
+
+  .tech-skill {
+    justify-self: center;
+    text-align: center;
+  }
+}
+

@@ -32,6 +32,7 @@ html {
 .container {
   text-align: center;
   width: 95%;
+  max-width: 55rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1em;
@@ -73,4 +74,21 @@ img {
 
 .btn-secondary {
   background-color: $accent-color;
+}
+
+.section-heading {
+  font-size: 2.25rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.section-subheading {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #abb0b4;
+}
+
+.green-border {
+  border-left: solid 5px #87c232;
+  padding-right: 1rem;
 }

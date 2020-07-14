@@ -5,8 +5,8 @@ import './styles.scss';
 
 function About() {
   return (
-    <section className='container' id='aboutMe'>
-      <h1 className='about-heading'>
+    <section className='about' id='aboutMe'>
+      <h1 className='section-heading'>
         <span className='green-border'></span>About Me
       </h1>
       <p className='about-excerpt'>
