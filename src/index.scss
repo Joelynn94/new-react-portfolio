@@ -8,7 +8,7 @@ $main-color: #87c232;
 $accent-color: #618930;
 
 body {
-  background-color: $main-dark-background;
+  background-color: $secondary-dark-background;
   color: $main-light-text;
   min-height: 100%;
   margin: 0;
@@ -77,12 +77,13 @@ img {
 }
 
 .section-heading {
+  text-align: left;
   font-size: 2.25rem;
   margin-bottom: 0;
-  text-align: left;
 }
 
 .section-subheading {
+  text-align: left;
   margin-top: 0;
   font-size: 1.5rem;
   color: #abb0b4;
@@ -98,45 +99,45 @@ img {
 }
 
 .js-icon {
-  color: #F1DE4F;
+  color: #f1de4f;
 }
 
 .react-icon {
-  color: #62D4FA;
+  color: #62d4fa;
 }
 
 .html-icon {
-  color: #DE6E3C;
+  color: #de6e3c;
 }
 
 .css-icon {
-  color: #53A7DC;
+  color: #53a7dc;
 }
 
 .sass-icon {
-  color: #BF6B97;
+  color: #bf6b97;
 }
 
 .node-icon {
-  color: #54B689;
+  color: #54b689;
 }
 
 .mongodb-icon {
-  color: #119E4F;
+  color: #119e4f;
 }
 
 .mysql-icon {
-  color: #00758F;
+  color: #00758f;
 }
 
 .npm-icon {
-  color: #BB443E;
+  color: #bb443e;
 }
 
 .git-icon {
-  color: #F54D27;
+  color: #f54d27;
 }
 
 .gulp-icon {
-  color: #C9514E;
+  color: #c9514e;
 }

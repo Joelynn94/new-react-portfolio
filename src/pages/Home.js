@@ -1,20 +1,18 @@
-import React from "react";
-import Hero from '../components/Hero/Hero'
-import About from '../components/About/About'
-import Skills from '../components/Skills/Skills'
-import CTA from '../components/CTA/CTA'
-
+import React from 'react';
+import Hero from '../components/Hero/Hero';
+import About from '../components/About/About';
+import Portfolio from '../components/Portfolio/Portfolio';
+import CTA from '../components/CTA/CTA';
+import Skills from '../components/Skills/Skills';
 
 function Home() {
   return (
     <main>
-      <div className="container">
-        <Hero />
-        <About />
-        <Skills />
-        <CTA />
-      </div>
-
+      <Hero />
+      <About />
+      <Portfolio />
+      <CTA />
+      <Skills />
     </main>
   );
 }

@@ -1,0 +1,24 @@
+.portfolio {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+
+  .featured {
+    margin-top: 2rem;
+
+    .project {
+      background-color: #2f3539;
+      margin: 0 auto;
+      max-width: 20rem;
+      color: #abb0b4;
+
+      .project-body {
+        padding: 1rem;
+      }
+
+      .project-buttons {
+        display: flex;
+        flex: 1 0 auto;
+      }
+    }
+  }
+}
