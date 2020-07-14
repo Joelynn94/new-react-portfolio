@@ -1,0 +1,16 @@
+.contact {
+  .form-control {
+    text-align: left;
+
+    .input-with-icon {
+      width: 100%;
+      position: relative;
+    }
+
+    i {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}

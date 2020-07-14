@@ -4,6 +4,7 @@ import About from '../components/About/About';
 import Portfolio from '../components/Portfolio/Portfolio';
 import CTA from '../components/CTA/CTA';
 import Skills from '../components/Skills/Skills';
+import Contact from '../components/Contact/Contact';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Portfolio />
       <CTA />
       <Skills />
+      <Contact />
     </main>
   );
 }

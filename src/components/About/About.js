@@ -15,9 +15,9 @@ function About() {
           Western Reserve University, with newly developed skills in JavaScript,
           mobile-first responsive design, Node.js, JQuery, API’s, problem
           solving and much more. With every project, my aim is to give users a
-          great experience from the interface to the database - ensuring
-          everything works as intended. Excited to leverage my skill set as part
-          of a goal-oriented and results-driven team.
+          great experience - ensuring everything works as intended. Excited to
+          leverage my skill set as part of a goal-oriented and results-driven
+          team.
         </p>
         <img
           className='about-img'

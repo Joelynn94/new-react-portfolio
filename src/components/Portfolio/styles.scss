@@ -12,6 +12,7 @@
       color: #abb0b4;
       line-height: 1.5rem;
       margin-bottom: 2rem;
+      border-radius: 5px;
 
       .project-title {
         font-size: 1.25rem;
@@ -20,6 +21,8 @@
 
       .project-img {
         height: 18rem;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
       }
 
       .project-body {
@@ -41,6 +44,10 @@
 
         a {
           padding: 0.5rem;
+        }
+
+        .project-btn {
+          width: 45%;
         }
       }
     }
