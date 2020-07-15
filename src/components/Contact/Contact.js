@@ -10,15 +10,32 @@ function Contact() {
           <span className='green-border'></span>Contact Me
         </h1>
         <form className='form' id='form'>
-          <div class='form-control'>
-            <label for='name'>Name</label>
+          <div className='form-control'>
+            <label className="form-label" htmlFor='name'>Name</label>
             <input
               type='text'
-              className='input-with-icon'
+              className='form-input'
               id='name'
-              placeholder='Enter a name'
             />
-            <i class='fal fa-user'></i>
+            <i className='fal fa-user contact-icon'></i>
+          </div>
+          <div className='form-control'>
+            <label className="form-label" htmlFor='email'>Email</label>
+            <input
+              type='text'
+              className='form-input'
+              id='email'
+            />
+            <i className='fal fa-envelope contact-icon'></i>
+          </div>
+          <div className='form-control'>
+            <label className="form-label" htmlFor='message'>Message</label>
+            <textarea
+              type='text'
+              className='form-textarea'
+              id='message'
+            ></textarea>
+            <i className='fal fa-comment-alt-lines contact-icon'></i>
           </div>
         </form>
       </div>

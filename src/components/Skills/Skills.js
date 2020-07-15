@@ -70,17 +70,17 @@ function Skills() {
 
           <div className='skills'>
             <div className='tech-skill'>
-              <i class='fab fa-npm skill-icon npm-icon'></i>
+              <i className='fab fa-npm skill-icon npm-icon'></i>
               <p className='tech-text'>NPM</p>
             </div>
 
             <div className='tech-skill'>
-              <i class='fab fa-git-alt skill-icon git-icon'></i>
+              <i className='fab fa-git-alt skill-icon git-icon'></i>
               <p className='tech-text'>Git</p>
             </div>
 
             <div className='tech-skill'>
-              <i class='fab fa-gulp skill-icon gulp-icon'></i>
+              <i className='fab fa-gulp skill-icon gulp-icon'></i>
               <p className='tech-text'>Gulp</p>
             </div>
 
