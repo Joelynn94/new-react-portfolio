@@ -1,6 +1,6 @@
 .contact {
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #222629;
 
   .form-control {
@@ -12,40 +12,42 @@
 
     .form-input {
       width: 100%;
-      height: 2rem;
-      background: hsla(0,0%,100%,.1);
+      height: 3rem;
+      background: hsla(0, 0%, 100%, 0.1);
       border: none;
-      font-size: 1rem;
+      font-size: 1.5rem;
       outline: 0;
       background-color: #e8eeef;
       color: #8a97a0;
-      box-shadow: inset 0 1px 0 rgba(0,0,0,.03);
+      box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.03);
       border-radius: 5px;
-      padding-left: 2rem;
-      margin-top: .5rem;
+      padding-left: 2.5rem;
+      margin-top: 0.5rem;
     }
 
     .contact-icon {
       position: absolute;
-      left: .5rem;
-      top: 2.15rem;
+      left: 0.5rem;
+      top: 2.65rem;
       color: #618930;
+      font-size: 1.5rem;
     }
 
     .form-textarea {
       resize: none;
       width: 100%;
-      height: 5rem;
-      background: hsla(0,0%,100%,.1);
+      height: 7rem;
+      background: hsla(0, 0%, 100%, 0.1);
       border: none;
-      font-size: 1rem;
+      font-size: 1.85rem;
       outline: 0;
       background-color: #e8eeef;
       color: #8a97a0;
-      box-shadow: inset 0 1px 0 rgba(0,0,0,.03);
+      box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.03);
       border-radius: 5px;
-      padding-left: 2rem;
-      margin-top: .5rem;
+      padding-left: 2.5rem;
+      padding-top: 0.5rem;
+      margin-top: 0.5rem;
     }
   }
 }

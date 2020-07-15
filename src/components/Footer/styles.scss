@@ -1,0 +1,30 @@
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .footer-title {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #87c232;
+  }
+
+  .footer-social {
+    text-align: left;
+    .social-icon {
+      margin-right: 0.5rem;
+      font-size: 2rem;
+
+      &:hover {
+        color: #87c232;
+      }
+    }
+  }
+
+  .footer-copy {
+    margin-top: 4rem;
+    text-align: left;
+    color: #87c232;
+  }
+}
