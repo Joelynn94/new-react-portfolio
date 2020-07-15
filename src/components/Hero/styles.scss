@@ -13,18 +13,20 @@
   }
 
   .hero-buttons {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     text-align: left;
     margin-top: 1rem;
 
-    .hero-btn {
-      align-content: space-evenly;
-      font-size: 0.85rem;
-    }
+    // .hero-btn {
+    //   align-content: space-evenly;
+    //   font-size: 0.85rem;
+    // }
   }
 
   .fal {
     margin-right: 0.25rem;
+    font-size: 1rem;
   }
 
   .hero-social {
