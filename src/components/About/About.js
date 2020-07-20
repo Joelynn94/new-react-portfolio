@@ -8,7 +8,7 @@ function About() {
     <section className='about' id='aboutMe'>
       <div className='container'>
         <h1 className='section-heading'>
-          <span className='green-border'></span>About Me
+          <span className='green-border'></span><a href="#about-me">About Me</a>
         </h1>
         <p className='about-excerpt'>
           Recently earned a certificate in Full Stack Development from Case

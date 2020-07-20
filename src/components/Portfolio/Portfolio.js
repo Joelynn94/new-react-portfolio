@@ -4,7 +4,7 @@ import './styles.scss';
 
 function Portfolio() {
   return (
-    <section className='portfolio'>
+    <section className='portfolio' id="#featured-portfolio">
       <div className='container'>
         <h1 className='section-heading'>
           <span className='green-border'></span>Featured Portfolio
