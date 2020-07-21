@@ -1,10 +1,9 @@
-$main-navigation-color: #87c232;
-
 .navigation {
-  background-color: $main-navigation-color;
+  background-color: var(--main-color);
   display: flex;
   text-align: center;
   align-items: center;
+  height: 4rem;
 
   .navigation-logo,
   .navigation-list {
@@ -27,12 +26,10 @@ $main-navigation-color: #87c232;
   }
 
   .navigation-ul {
-    display: none;
-    flex-wrap: wrap;
+    // display: none;
     justify-content: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    position: absolute;
+    top: 1;
   }
 
   .navigation-item {

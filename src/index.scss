@@ -1,3 +1,12 @@
+:root {
+  --main-dark: #222629;
+  --secondary-dark: #2f3539;
+  --light-text: #fff;
+  --dark-text: #abb0b4;
+  --main-color: #87c232;
+  --secondary-color: #618930;
+}
+
 $main-dark-background: #222629;
 $secondary-dark-background: #2f3539;
 
@@ -43,6 +52,12 @@ a {
   padding: 1rem 0.15rem;
   text-decoration: none;
   color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {

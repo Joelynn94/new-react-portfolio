@@ -1,49 +1,28 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import NavigationItem from './NavigationItem';
+import NavigationLogo from './NavigationLogo';
 
-import "./styles.scss";
+import './styles.scss';
 
 function Navigation() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className='navigation'>
       {/* Navigation Logo */}
-      <div className='navigation-logo'>
-        <Link to='/' className='navigation-link'>
-          JL
-        </Link>
-      </div>
+      <NavigationLogo logo='JL' />
       {/* Navigation List */}
       <div className='navigation-list'>
         {/* Navigation Items */}
         <ul className='navigation-ul'>
-          <li className='navigation-item'>
-            <Link className='navigation-link' to='/'>
-              Home
-            </Link>
-          </li>
-          <li className='navigation-item'>
-            <Link className='navigation-link' to='/'>
-              About
-            </Link>
-          </li>
-          <li className='navigation-item'>
-            <Link className='navigation-link' to='/'>
-              Skills
-            </Link>
-          </li>
-          <li className='navigation-item'>
-            <Link className='navigation-link' to='/'>
-              Portfolio
-            </Link>
-          </li>
-          <li className='navigation-item'>
-            <Link className='navigation-link' to='/'>
-              Contact
-            </Link>
-          </li>
+          <NavigationItem item='Home' />
+          <NavigationItem item='About' />
+          <NavigationItem item='Skills' />
+          <NavigationItem item='Portfolio' />
+          <NavigationItem item='Contact' />
         </ul>
         {/* Navigation Toggle Button */}
-        <div className='navigation-toggle'>
+        <div className='navigation-toggle' onClick={() => setOpen(!open)}>
           <i className='far fa-bars'></i>
         </div>
       </div>
