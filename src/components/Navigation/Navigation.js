@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import NavigationItem from './NavigationItem';
+import NavigationMenu from './NavigationMenu';
 import NavigationLogo from './NavigationLogo';
+import NavigationToggle from './NavigationToggle';
 
 import './styles.scss';
 
@@ -14,17 +15,9 @@ function Navigation() {
       {/* Navigation List */}
       <div className='navigation-list'>
         {/* Navigation Items */}
-        <ul className='navigation-ul'>
-          <NavigationItem item='Home' />
-          <NavigationItem item='About' />
-          <NavigationItem item='Skills' />
-          <NavigationItem item='Portfolio' />
-          <NavigationItem item='Contact' />
-        </ul>
+        <NavigationMenu open={open} setOpen={setOpen} />
         {/* Navigation Toggle Button */}
-        <div className='navigation-toggle' onClick={() => setOpen(!open)}>
-          <i className='far fa-bars'></i>
-        </div>
+        <NavigationToggle open={open} setOpen={setOpen} />
       </div>
     </nav>
   );
